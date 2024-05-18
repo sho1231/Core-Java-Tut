@@ -1,0 +1,8 @@
+1) try with finally is used for executing a block of code irrespective of a exception.
+For eg) I am opening a file in java to read it and irrespective of whether I am able to read it or exception occurs
+I will close the connection with file. 
+
+2) try with resource automatically closes the resource when done.
+
+what is a resource?
+https://stackoverflow.com/questions/24854927/what-is-a-resource-in-javawhy-we-have-to-close-it-after-it-is-used

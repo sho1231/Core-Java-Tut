@@ -1,0 +1,4 @@
+Primitive data types are there in java for performance enhancement.
+
+Storing primitive value in object ---> auto boxing
+reverse is auto unboxing

@@ -1,0 +1,12 @@
+In case of
+Parent obj = new Child();
+a)if method is overrided by child, then overrided method will be executed.
+b)Methods present in parent classes can be refered and executed
+c)Child class method cannot be refered and executed. In case we want to use child class methods, we need
+to type caste it:
+Child obj1 = (Child) obj;
+obj1.run2();
+
+
+
+STATIC METHODS CAN'T BE overrided

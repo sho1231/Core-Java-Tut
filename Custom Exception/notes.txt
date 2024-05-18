@@ -1,0 +1,5 @@
+1) Custom exception
+a) Create a class which extends exception class, can also extends runtime exception
+b) To pass a message while throwing your exception call parent class constructor method and pass your message argument or super(String s)
+
+

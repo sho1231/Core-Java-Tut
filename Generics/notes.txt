@@ -1,0 +1,2 @@
+1. Generics helps to define what type of object can be accepted for a class
+2. Provides type safety. 

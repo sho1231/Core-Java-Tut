@@ -1,0 +1,22 @@
+Executing multiple behaviour at same time, we need Thread.
+Scheduler allows which n numbers of threads to be executed at a certain time.
+We can also give priority to a thread for its execution.
+
+When a program calls the start() method, a new thread is created and then the run() method is executed. But if we directly call the run() method then no new thread will be created and run() method will be executed as a normal method call on the current calling thread itself and no multi-threading will take place
+
+Another way to implement Threading is to use Runnable interface. This interface is there in case the class
+we want to implement Threading needs to extends some other class.
+
+Thread states :
+c:\Users\user\OneDrive\Pictures\Screenshots\Screenshot (87).png
+
+Runnable---> means Thread is read to run but is not running
+Running--> Scheduler picked the Thread and it's getting executed.
+
+Difference betweem sleep and wait is for wait we have to use notify method and make the Thread again go to
+runnable state.
+
+join method in Thread makes main method till the threads have done their job
+
+synchronized keyword makes a function thread safe i.e: when one thread is working on it another thread
+can't use it

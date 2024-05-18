@@ -1,0 +1,9 @@
+When element is added inside array list, size becomes by default to accomodate 10 elements
+
+LinkedList is class which implements Queue and List
+
+PriorityQueue by default implements min heap.
+HashSet-->unordered
+LinkedHashSet-->ordered
+
+Comparator.reverseOrder() --->descending order
